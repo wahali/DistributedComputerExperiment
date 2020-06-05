@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="big5" ?>               <!-- 此為宣告 -->
+<hosts>                                                           <!-- 此為root標籤的開始 -->
+<host>
+    <ip>localhost</ip>                        <!-- 標籤必須成對出現 -->
+    <port>8000</port>
+    <state>active</state>
+</host>
+<hr />
+<host>
+    <ip>localhost</ip>                        <!-- 標籤必須成對出現 -->
+    <port>8008</port>
+    <state>active</state>
+</host>
+</hosts>                                                             <!-- 此為root標籤的結束 -->

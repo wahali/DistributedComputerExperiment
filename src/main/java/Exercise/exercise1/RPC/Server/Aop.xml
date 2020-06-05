@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="big5" ?>               <!-- 此為宣告 -->
+<aops>                                                           <!-- 此為root標籤的開始 -->
+    <aop>
+        <method>checkErrorTimes</method>                        <!-- 標籤必須成對出現 -->
+        <methodarg>java.lang.String</methodarg>
+        <methodarg>java.lang.String</methodarg>
+        <methodarg>java.lang.String</methodarg>
+        <type>after</type>
+        <proxy>login</proxy>
+    </aop>
+    <aop>
+        <method>withdrawLog</method>                        <!-- 標籤必須成對出現 -->
+        <methodarg>java.lang.String</methodarg>
+        <methodarg>java.math.BigDecimal</methodarg>
+        <methodarg>java.lang.String</methodarg>
+        <type>after</type>
+        <proxy>withdraw</proxy>
+    </aop>
+    <hr />
+</aops>                                                             <!-- 此為root標籤的結束 -->
